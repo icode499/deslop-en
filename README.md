@@ -10,7 +10,7 @@ It is a modified version of [blader/humanizer](https://github.com/blader/humaniz
 - New rules for semicolon overuse, colon reveals ("The result: ..."), and the uniform 8 to 20 word sentence band that newer models use in place of em dashes.
 - New academic-register section: common boilerplate in papers and abstracts, plus the hedges, semicolons, and passive voice that academic writing legitimately keeps.
 - A "never add" list so rewrites do not invent details, opinions, or a fake casual voice.
-- A detect-only mode.
+- A detect-only mode, and file-format rules for Markdown and LaTeX (what to leave untouched, how `--`, `---`, and ``` ``...'' ``` quotes are handled).
 - All before/after examples rewritten from scratch. The upstream examples were partly drawn from Wikipedia articles.
 - Patterns renumbered and regrouped (§1 to §35).
 
@@ -31,7 +31,7 @@ Or per project: clone into `.claude/skills/deslop-en/` in the repository.
 <paste text>
 ```
 
-Natural language also works: "deslop this paragraph", "audit draft.md for AI tells, don't rewrite", "clean up the AI patterns in README.md".
+Natural language also works: "deslop this paragraph", "audit draft.md for AI tells, don't rewrite", "clean up the AI patterns in README.md", "deslop the introduction of paper/main.tex".
 
 ## Sources
 
